@@ -1,6 +1,6 @@
 {
   "name": "rlb-ganache-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "ganache-cli": "./build/cli.node.js"
   },
@@ -19,15 +19,16 @@
     "prepublish": "npm run build"
   },
   "devDependencies": {
-    "rlb-ganache-core": "^0.0.1",
+    "rlb-ganache-core": "0.0.1",
     "yargs": "^7.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trufflesuite/ganache-cli"
+    "url": "https://github.com/rbanate/ganache-cli"
   },
   "dependencies": {
     "source-map-support": "^0.5.0",
+    "web3": "^0.20.1",
     "webpack": "^3.10.0"
   }
 }
